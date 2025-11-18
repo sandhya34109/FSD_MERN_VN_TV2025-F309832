@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(108, 116, 116);
+    height: 200px;
+    width: 700px;
+    padding: 20px;
+
+}
+.gallery{
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 20px;
+
+}
+ img{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}

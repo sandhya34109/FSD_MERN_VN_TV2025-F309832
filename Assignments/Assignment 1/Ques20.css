@@ -1,0 +1,29 @@
+
+    .container {
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .card {
+        background: #a8da34;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+    }
+    @media (max-width: 1200px) {
+        .container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media (max-width: 768px) {
+        .container {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media (max-width: 480px) {
+        .container {
+            grid-template-columns: 1fr;
+        }
+    }
+

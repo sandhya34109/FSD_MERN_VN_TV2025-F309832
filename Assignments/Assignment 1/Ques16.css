@@ -1,0 +1,25 @@
+        body {
+            margin: 0;
+        }
+
+        .navbar-inline a {
+            display: inline;
+            padding: 10px 20px;
+            background-color: rgb(15, 70, 102);
+            color: pink;
+            margin-right: 10px;
+        }
+
+        .navbar-block a {
+            display: block;
+            padding: 15px;
+            background-color: rgb(72, 102, 15);
+            color: pink;
+            margin-bottom: 5px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(200, 200, 200);
+        }

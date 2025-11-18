@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  background-color: gray;
+  color: rgb(183, 235, 135);
+  padding: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.main-content p {
+  height: 1000px;
+}
